@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="7dp"
+    android:background="#F1F3E1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/poetName"
+        android:text="Rabindranath Tagore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:minHeight="30dp"/>
+    <TextView
+        android:id="@+id/poetryData"
+        android:text="Amader soto nodi chole bake bake. Boishakh mashe tar hatu jol thake.Par hoye jay goru, par hoy gari."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingStart="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingEnd="5dp"
+        android:minHeight="60dp"/>
+    <TextView
+        android:id="@+id/dateTime"
+        android:text="22-Apr-2022"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|end"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:textColor="#393232"
+        android:textStyle="bold"
+        android:minHeight="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/updateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Update"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="#C3D4DC"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Delete"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:background="#F48181"
+            android:gravity="center"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
